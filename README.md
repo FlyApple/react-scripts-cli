@@ -3,13 +3,13 @@
 ## Basic Usage
 ### 1) Replace react-scripts calls with rescripts calls
 ```json
-"scripts": {
--   "start": "react-scripts start",
-+   "start": "react-scripts-cli start",
--   "build": "react-scripts build",
-+   "build": "react-scripts-cli build",
--   "test": "react-scripts test",
-+   "test": "react-scripts-cli test"
+  "scripts": {
+ -   "start": "react-scripts start",
+ +   "start": "react-scripts-cli start",
+ -   "build": "react-scripts build",
+ +   "build": "react-scripts-cli build",
+ -   "test": "react-scripts test",
+ +   "test": "react-scripts-cli test"
   }
 ```
 
